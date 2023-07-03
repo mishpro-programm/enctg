@@ -1,3 +1,3 @@
 import os
 os.system("pip install -r requirements.txt")
-import dist.main
+os.system("cd dist; python3 main.py")
